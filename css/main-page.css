@@ -1,0 +1,402 @@
+/**Main Page CSS**/
+
+/** colors: teal: #76BD9F mustard yellow: #EDAA42; bright coral: #DC4D3C dark brown:#1F0302
+light tan brown: C9B6A5;
+**/
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: text-justify;
+    }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+  {
+    font-family: "Lato", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a {
+    color: #1F0302;
+}
+
+ul {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.norm {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75em;
+}
+
+
+                                  /** Header and Top Navigation**/
+
+.topnav {
+    font-size: 18px; 
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;10000
+    z-index: ;
+    /***-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);**/
+    transition: all 0.2s ease-in-out;
+    height: auto;
+}
+
+.active {
+    background-color: #76BD9F;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background-color: #76BD9F;
+    /**background: url(../img/hero.jpg) no-repeat center center;**/
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    font-size: 5em;
+    line-height: 1.5em;
+}
+
+.intro-message > h2 {
+    margin: 0;
+    line-height: 1.5em;
+    letter-spacing: 0.1em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+
+.intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.section-aboutme {
+    background-color: #76BD9F;
+    line-height: 1.5em;
+    color: #f8f8f8;
+    font-size: 1.1em;
+}
+
+/**.aboutme{
+    margin-top: 25px;
+}**/
+
+                                        /**MY WORK IMAGE THUMBNAIL GALLERY**/
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  background: #1F0302; 
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 50px 20px;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  opacity: .7;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px,0,0);
+  transform: translate3d(-10px,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect:hover img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+}
+
+.hovereffect h2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%,0,0);
+  transform: translate3d(-100%,0,0);
+}
+
+.hovereffect:hover h2:after {
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.hovereffect a, .hovereffect p {
+  color: #fff;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%,0,0);
+  transform: translate3d(100%,0,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+        
+                                                /**PROJECT SECTIONS**/
+
+
+.section-project1 {
+    padding: 10px 0;
+    /**border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;**/    
+}
+
+.section-project2 {
+    padding: 10px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+                                           /**CONTACT SECTION**/
+
+.section-contact {
+  font-size: 16px;
+  margin-top: 80px;
+  padding-bottom: 40px;
+    /**border-bottom: 1px solid #e7e7e7;**/
+    color: #f8f8f8;
+    background-color: #76BD9F;
+}
+
+.fa {
+    margin-top: 5px;
+}
+
+footer{
+  background: #76BD9F;
+  padding: 25px 0;
+}
+
+.footernav a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #777;
+}
+
+.section-bottom {
+    background-color: #76BD9F;
+}
+
+p.copyright {
+    margin: 20px 0;
+    color: #fff;
+} 
+
+/**.contact {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background-color: #EDAA42;
+    /**background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+
+
+    .banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+**/
+
+
+                                /**Project Pages**/
+
+.casestudy-header {
+    margin: 50px 0;
+    background: url(../img/thumbnailsavvo.png) no-repeat center center;
+    background-size: cover;
+    height: 450px;
+}
+
+.section-casestudy {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.content {
+  margin: 20px 0;
+}
+
+.deliverable {
+    padding: 5px 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.thumbnail:hover {
+    position:relative;
+    /**
+    top:-25px;
+    left:-35px;**/
+    width:1000px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+
+
+
+                                /**MEDIA 1199PX AND 767PX**/
+
+      @media screen and (max-width:1199px) {
+            ul.contact-social-buttons {
+                float: left;
+                margin-top: 15px;
+            }
+
+            .section-aboutme{
+            background-color: #76BD9F;
+        }
+            .aboutme {
+            margin-top: 0;
+        }
+
+        @media screen and (max-width:767px) {
+            .contact h2 {
+                margin: 0;
+                text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+                font-size: 3em;
+            }
+      }
+  /** ul.contact-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.contact-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }**/
+} 
+
+    @media screen and (max-width:767px) {
+          .intro-message {
+              padding-bottom: 15%;
+          }
+
+          .intro-message > h1 {
+              font-size: 3em;
+          }
+
+          ul.intro-social-buttons > li {
+              display: block;
+              margin-bottom: 20px;
+              padding: 0;
+          }
+
+          ul.intro-social-buttons > li:last-child {
+              margin-bottom: 0;
+          }
+        }
