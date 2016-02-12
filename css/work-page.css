@@ -1,0 +1,82 @@
+/**PROJECT SECTIONS**/
+
+/**coral: #DC4D3C**/
+
+a {
+    color: #76BD9F;
+}
+
+.week {
+	color: #76BD9F;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.section-project1 {
+    padding: 10px 0;
+    /**border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;**/    
+}
+
+.section-project2 {
+    padding: 10px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+                               /**Project Pages**/
+
+.casestudy-savvoheader {
+    margin: 50px 0;
+    background: url(../img/savvo/herosavvo.png) no-repeat center center;
+    background-size: cover;
+    height: 450px;
+}
+
+.section-casestudy {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    margin-bottom: 50px;
+}
+
+.content {
+  margin: 20px 0;
+}
+
+.deliverable {
+    padding: 5px 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.thumbnail:hover {
+    position:relative;
+    /**
+    top:-25px;
+    left:-35px;**/
+    width:1000px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+.footernav a {
+    color: #777;
+}
+
+footer {
+	padding: 20px 0;
+
+}
+
+/**PROJECT 2 - CURIOUS TECHNOLOGIES**/
+
+.casestudy-curiousheader {
+    margin: 50px 0;
+    background: url(../img/thumbnailcurious.jpg) no-repeat center center;
+    background-size: cover;
+    height: 450px;
+}
+
+
+

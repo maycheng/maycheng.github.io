@@ -15,6 +15,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     text-transform: text-justify;
+    color: #333;
     }
 
 h1,
@@ -33,7 +34,7 @@ h4 {
 }
 
 a {
-    color: #1F0302;
+    color: #76BD9F;
 }
 
 ul {
@@ -52,10 +53,18 @@ ul {
                                   /** Header and Top Navigation**/
 
 .topnav {
-    font-size: 18px; 
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
     background-color: transparent;
     background: transparent;
     border-color: transparent;
+}
+
+.home {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .header {
@@ -73,8 +82,9 @@ ul {
 }
 
 .active {
-    background-color: #76BD9F;
+    background-color: #76bd9f;
 }
+
 
 .lead {
     font-size: 18px;
@@ -87,8 +97,8 @@ ul {
     text-align: center;
     color: #f8f8f8;
     background-color: #76BD9F;
-    /**background: url(../img/hero.jpg) no-repeat center center;**/
-    background-size: cover;
+    /**background: url(../img/hero.jpg) no-repeat center center;
+    background-size: cover;**/
 }
 
 .intro-message {
@@ -99,14 +109,16 @@ ul {
 
 .intro-message > h1 {
     margin: 0;
-    font-size: 5em;
+    font-size: 4.5em;
     line-height: 1.5em;
+    font-family: 'Oswald', sans-serif;
 }
 
 .intro-message > h2 {
     margin: 0;
     line-height: 1.5em;
-    letter-spacing: 0.1em;
+    letter-spacing: .01em;
+    font-size: 2.5em;
 }
 
 .intro-divider {
@@ -133,17 +145,42 @@ ul {
 }
 
 .section-aboutme {
-    background-color: #76BD9F;
-    line-height: 1.5em;
-    color: #f8f8f8;
-    font-size: 1.1em;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    font-family: "Lato", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.45em;
+    border-bottom: 1px solid #e7e7e7;
 }
 
-/**.aboutme{
-    margin-top: 25px;
-}**/
+.aboutme h2 {
+    margin-top: 0;
+  }
+
+
+.aboutme p {
+    padding-bottom: 10px;
+}
 
                                         /**MY WORK IMAGE THUMBNAIL GALLERY**/
+
+
+.section-mywork {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #e7e7e7;
+
+}                                        
+
+.section-heading {
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.projects > div {
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
 
 .hovereffect {
   width: 100%;
@@ -181,7 +218,7 @@ ul {
 }
 
 .hovereffect:hover img {
-  opacity: 0.4;
+  opacity: 0.2;
   filter: alpha(opacity=40);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
@@ -234,37 +271,22 @@ ul {
   transform: translate3d(0,0,0);
 }
 
-        
-                                                /**PROJECT SECTIONS**/
 
-
-.section-project1 {
-    padding: 10px 0;
-    /**border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;**/    
-}
-
-.section-project2 {
-    padding: 10px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-}
-
-.section-heading {
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
 
 
                                            /**CONTACT SECTION**/
 
+
+
+
 .section-contact {
   font-size: 16px;
-  margin-top: 80px;
-  padding-bottom: 40px;
-    /**border-bottom: 1px solid #e7e7e7;**/
-    color: #f8f8f8;
-    background-color: #76BD9F;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.connection {
+  padding-top: 20px;
 }
 
 .fa {
@@ -273,77 +295,15 @@ ul {
 
 footer{
   background: #76BD9F;
-  padding: 25px 0;
-}
-
-.footernav a {
-  font-size: 16px;
-  font-weight: bold;
-  color: #777;
-}
-
-.section-bottom {
-    background-color: #76BD9F;
+  color: #000;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .03em;
+  font-size: 15px;
 }
 
 p.copyright {
     margin: 20px 0;
-    color: #fff;
 } 
-
-/**.contact {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background-color: #EDAA42;
-    /**background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
-
-
-    .banner ul {
-    margin-bottom: 0;
-}
-
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
-}
-**/
-
-
-                                /**Project Pages**/
-
-.casestudy-header {
-    margin: 50px 0;
-    background: url(../img/thumbnailsavvo.png) no-repeat center center;
-    background-size: cover;
-    height: 450px;
-}
-
-.section-casestudy {
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-}
-
-.content {
-  margin: 20px 0;
-}
-
-.deliverable {
-    padding: 5px 5px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.thumbnail:hover {
-    position:relative;
-    /**
-    top:-25px;
-    left:-35px;**/
-    width:1000px;
-    height:auto;
-    display:block;
-    z-index:999;
-}
 
 
 
@@ -356,12 +316,11 @@ p.copyright {
                 margin-top: 15px;
             }
 
-            .section-aboutme{
-            background-color: #76BD9F;
-        }
             .aboutme {
             margin-top: 0;
         }
+
+      }
 
         @media screen and (max-width:767px) {
             .contact h2 {
@@ -379,7 +338,6 @@ p.copyright {
     ul.contact-social-buttons > li:last-child {
         margin-bottom: 0;
     }**/
-} 
 
     @media screen and (max-width:767px) {
           .intro-message {
