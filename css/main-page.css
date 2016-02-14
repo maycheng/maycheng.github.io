@@ -311,16 +311,36 @@ p.copyright {
                                 /**MEDIA 1199PX AND 767PX**/
 
       @media screen and (max-width:1199px) {
-            ul.contact-social-buttons {
-                float: left;
-                margin-top: 15px;
-            }
 
-            .aboutme {
-            margin-top: 0;
-        }
+            .aboutme h2 {
+              margin-top: 5px;
+              margin-bottom: 10px;
+          }
 
-      }
+
+            .aboutme p {
+              padding-bottom: 0;
+              font-size: 14px;
+              line-height: 1.40em;
+          }
+
+}
+
+@media screen and (max-width:991px) {
+
+          .aboutme h2 {
+              margin-top: 30px;
+              margin-bottom: 10px;
+          }
+
+
+            .aboutme p {
+              padding-bottom: 10px;
+              font-size: 15px;
+              line-height: 1.45em;
+          }
+
+}
 
         @media screen and (max-width:767px) {
             .contact h2 {
@@ -346,15 +366,5 @@ p.copyright {
 
           .intro-message > h1 {
               font-size: 3em;
-          }
-
-          ul.intro-social-buttons > li {
-              display: block;
-              margin-bottom: 20px;
-              padding: 0;
-          }
-
-          ul.intro-social-buttons > li:last-child {
-              margin-bottom: 0;
           }
         }
