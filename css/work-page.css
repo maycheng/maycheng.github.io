@@ -5,11 +5,42 @@
 a {
     color: #76BD9F;
 }
+    
+
+.btn {
+    font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+    border: none;
+    border-radius: 300px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    color: #ffffff;
+    background-color: #DC4D3C;
+    border-color: #f05f40;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.btn-primary:hover {
+    background-color: #777;
+}
+
+.btn-xl {
+    padding: 15px 30px;
+}
+
 
 .week {
 	color: #76BD9F;
 	margin-right: 0;
 	margin-left: 0;
+    border-top: 1px solid #e7e7e7;
 }
 
 .section-project1 {
