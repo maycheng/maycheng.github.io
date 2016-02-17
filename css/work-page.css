@@ -3,7 +3,7 @@
 /**coral: #DC4D3C**/
 
 a {
-    color: #76BD9F;
+    color: #DC4D3C;
 }
     
 
@@ -37,10 +37,11 @@ a {
 
 
 .week {
-	color: #76BD9F;
+	color: #DC4D3C;
 	margin-right: 0;
 	margin-left: 0;
     border-top: 1px solid #e7e7e7;
+    font-size: 50px;
 }
 
 .section-project1 {
@@ -58,10 +59,9 @@ a {
                                /**Project Pages**/
 
 .casestudy-savvoheader {
-    margin: 50px 0;
+    height: 500px;
     background: url(../img/savvo/herosavvo.png) no-repeat center center;
     background-size: cover;
-    height: 450px;
 }
 
 .section-casestudy {
@@ -92,7 +92,7 @@ a {
 }
 
 .footernav a {
-    color: #777;
+    color: #fff;
 }
 
 footer {
@@ -103,10 +103,9 @@ footer {
 /**PROJECT 2 - CURIOUS TECHNOLOGIES**/
 
 .casestudy-curiousheader {
-    margin: 50px 0;
+    height: 500px;
     background: url(../img/thumbnailcurious.jpg) no-repeat center center;
     background-size: cover;
-    height: 450px;
 }
 
 

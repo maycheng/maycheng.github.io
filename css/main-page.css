@@ -34,7 +34,7 @@ h4 {
 }
 
 a {
-    color: #76BD9F;
+    color: #DC4D3C;
 }
 
 ul {
@@ -61,6 +61,30 @@ ul {
     border-color: transparent;
 }
 
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:visited {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:visited {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:active{
+  color: #fff;
+}
+
 .home {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
@@ -72,8 +96,7 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 0;10000
-    z-index: ;
+    padding: 0;10000;
     /***-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);**/
@@ -82,7 +105,7 @@ ul {
 }
 
 .active {
-    background-color: #fff;
+    background-color: rgba(220,77,60,.8);
 }
 
 
@@ -92,19 +115,19 @@ ul {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 50px; 
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background-color: #76BD9F;
-    /**background: url(../img/hero.jpg) no-repeat center center;
-    background-size: cover;**/
+    background-color: #DC4D3C;
+    background: url(../img/hero.png) no-repeat center center;
+    background-size: cover;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 25%;
+    padding-bottom: 15%;
 }
 
 .intro-message > h1 {
@@ -112,6 +135,7 @@ ul {
     font-size: 4.5em;
     line-height: 1.5em;
     font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 .intro-message > h2 {
@@ -119,6 +143,7 @@ ul {
     line-height: 1.5em;
     letter-spacing: .01em;
     font-size: 2.5em;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
 .intro-divider {
@@ -127,9 +152,6 @@ ul {
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-}
 
 
 .intro-divider {
@@ -190,7 +212,7 @@ ul {
   position: relative;
   text-align: center;
   cursor: pointer;
-  background: #1F0302; 
+  background: #1f0a02; 
 }
 
 .hovereffect .overlay {
@@ -294,8 +316,7 @@ ul {
 }
 
 footer{
-  background: #76BD9F;
-  color: #000;
+  background: #DC4D3C;
   font-family: 'Oswald', sans-serif;
   letter-spacing: .03em;
   font-size: 15px;
@@ -304,6 +325,10 @@ footer{
 p.copyright {
     margin: 20px 0;
 } 
+
+.text-muted {
+  color: #fff;
+}
 
 
 
