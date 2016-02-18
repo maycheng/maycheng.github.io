@@ -1,8 +1,5 @@
 /**Main Page CSS**/
 
-/** colors: teal: #76BD9F mustard yellow: #EDAA42; bright coral: #DC4D3C dark brown:#1F0302
-light tan brown: C9B6A5;
-**/
 
 body,
 html {
@@ -66,7 +63,7 @@ ul {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #DC4D3C;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav>li>a:visited {
@@ -82,7 +79,7 @@ ul {
 }
 
 .navbar-default .navbar-brand:hover {
-  color: #DC4D3C;
+  color: #fff;
 }
 
 .navbar-default .navbar-brand:visited {
