@@ -1,7 +1,5 @@
 /**PROJECT SECTIONS**/
 
-/**coral: #DC4D3C**/
-
 a {
     color: #DC4D3C;
 }
@@ -37,11 +35,9 @@ a {
 
 
 .week {
-	color: #DC4D3C;
 	margin-right: 0;
 	margin-left: 0;
     border-top: 1px solid #e7e7e7;
-    font-size: 50px;
 }
 
 .section-project1 {
