@@ -104,5 +104,13 @@ footer {
     background-size: cover;
 }
 
+/**PROJECT 4 - ORGANIC FOOD**/
+
+.casestudy-organicheader {
+    height: 500px;
+    background: url(../img/thumbnailorganic.png) no-repeat center center;
+    background-size: cover;
+}
+
 
 
