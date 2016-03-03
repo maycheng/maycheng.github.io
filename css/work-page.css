@@ -113,9 +113,11 @@ footer {
     background-size: cover;
 }
 
+/**PROJECT 3 - flint*/
+
 .casestudy-flintheader {
-    height: ;
-    background: url();
+    height: 500px;
+    background: url(../img/thumbnailflint.png) no-repeat center center;
     background-size: cover;
 }
 
