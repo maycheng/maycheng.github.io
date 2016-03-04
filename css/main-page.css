@@ -265,7 +265,7 @@ ul {
   overflow: hidden;
   padding: 0.5em 0;
   background-color: transparent;
-  margin-top: 100px;
+  margin-top: 85px;
 }
 
 .hovereffect h2:after {
@@ -329,7 +329,8 @@ ul {
 footer{
   background: #DC4D3C;
   font-family: 'Oswald', sans-serif;
-  letter-spacing: .03em;
+  font-weight: 400;
+  letter-spacing: .08em;
   font-size: 12px;
 }
 
@@ -394,15 +395,7 @@ p.copyright {
 }
 
       }
-  /** ul.contact-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
 
-    ul.contact-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }**/
 
     @media screen and (max-width:767px) {
           .intro-message {

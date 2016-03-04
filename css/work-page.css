@@ -63,11 +63,6 @@ a {
 
                                /**Project Pages**/
 
-.casestudy-savvoheader {
-    height: 500px;
-    background: url(../img/savvo/herosavvo.png) no-repeat center center;
-    background-size: cover;
-}
 
 .section-casestudy {
     border-top: 1px solid #e7e7e7;
@@ -105,6 +100,15 @@ footer {
 
 }
 
+
+/**PROJECT 1 - SAVVO DIGITAL SOMMELIER**/
+
+
+.casestudy-savvoheader {
+    height: 500px;
+    background: url(../img/thumbnailsavvo.png) no-repeat center center;
+    background-size: cover;
+}
 /**PROJECT 2 - CURIOUS TECHNOLOGIES**/
 
 .casestudy-curiousheader {
