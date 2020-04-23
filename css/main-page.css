@@ -8,11 +8,9 @@ html {
 }
 
 body {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-family: "Open Sans", "Lato","Helvetica Neue",Helvetica, Arial,sans-serif;
     font-weight: 400;
-    text-transform: text-justify;
-    color: #454141;
+    color: #212529;
     }
 
 h1,
@@ -21,9 +19,10 @@ h3,
 h4,
 h5,
   {
-    font-family: "Lato", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial,sans-serif;
     font-weight: 700;
 }
+
 
 h4 {
   font-size: 16px;
@@ -51,7 +50,7 @@ ul {
 
 .topnav {
     font-size: 18px;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     background-color: transparent;
     background: transparent;
@@ -110,7 +109,7 @@ ul {
 }
 
 .active {
-    background-color: rgba(220,77,60,.8);
+    background-color: #616E86;
 }
 
 
@@ -364,10 +363,9 @@ ul {
 }
 
 footer{
-  background: #DC4D3C;
-  font-family: 'Oswald', sans-serif;
+  background: #616E86;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
-  letter-spacing: .08em;
   font-size: 12px;
 }
 

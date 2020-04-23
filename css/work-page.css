@@ -1,7 +1,7 @@
 /**PROJECT SECTIONS**/
 
 a {
-    color: #DC4D3C;
+    color: #616E86;
 }
 
 
@@ -14,18 +14,18 @@ a {
     padding: 12px 22px;
 }
 .btn-primary.outline {
-    border: 2px solid #DC4D3C;
-    color: #DC4D3C;
+    border: 2px solid #616E86;
+    color: #616E86;
 }
 .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
     color: #fff;
     border-color: #fff;
-    background-color: #DC4D3C;
+    background-color: #616E86;
 }
 .btn-primary.outline:active, .btn-primary.outline.active {
     color: #fff;
     border-color: #fff;
-    background-color: #DC4D3C;
+    background-color: #616E86;
     box-shadow: none;
 }
 
@@ -61,13 +61,11 @@ a {
     border-bottom: 1px solid #e7e7e7;
 }
 
-                               /**Project Pages**/
-
+                               /**My Work Pages**/
 
 .section-casestudy {
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-    margin-bottom: 50px;
+  margin-top: 32px;
+  margin-bottom: 56px;
 }
 
 .content {
@@ -105,31 +103,37 @@ footer {
 
 
 .casestudy-savvoheader {
-    height: 500px;
-    background: url(../img/thumbnailsavvo.png) no-repeat center center;
+    height: 350px;
+    background: #F1F3F4;
+    /*url(../img/thumbnailsavvo.png) no-repeat center center;*/
     background-size: cover;
 }
 /**PROJECT 2 - CURIOUS TECHNOLOGIES**/
 
 .casestudy-curiousheader {
-    height: 500px;
-    background: url(../img/thumbnailcurious.jpg) no-repeat center center;
+    height: 350px;
+    background: #F1F3F4;
+    /*background: url(../img/thumbnailcurious.jpg) no-repeat center center;*/
     background-size: cover;
 }
 
 /**PROJECT 3 - flint*/
 
 .casestudy-flintheader {
-    height: 500px;
-    background: url(../img/thumbnailflint.png) no-repeat center center;
+    height: 350px;
+    background: #F1F3F4;
+/*    height: 500px;
+    background: url(../img/thumbnailflint.png) no-repeat center center;*/
     background-size: cover;
 }
 
 /**PROJECT 4 - ORGANIC FOOD**/
 
 .casestudy-organicheader {
-    height: 500px;
-    background: url(../img/thumbnailorganic.png) no-repeat center center;
+    height: 350px;
+    background: #F1F3F4;
+    /*height: 500px;
+    background: url(../img/thumbnailorganic.png) no-repeat center center;*/
     background-size: cover;
 }
 
