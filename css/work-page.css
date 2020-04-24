@@ -1,8 +1,62 @@
-/**PROJECT SECTIONS**/
+/**Work Page**/
 
-a {
-    color: #616E86;
+/**Hero**/
+
+.work-project1 {
+    height: 200px;
+    background: #CCAFAF;
+    /*url(../img/thumbnailsavvo.png) no-repeat center center;*/
+    background-size: cover;
 }
+
+.work-project2 {
+    height: 200px;
+    background: #CCAFAF;
+    /*background: url(../img/thumbnailcurious.jpg) no-repeat center center;*/
+    background-size: cover;
+}
+
+
+/**Page**/
+
+.project-title{
+    margin-top: 56px;
+    margin-bottom: 16px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.project-subtitle{
+    margin-bottom: 56px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.project-description{
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.project-section-title {
+    margin-top: 56px;
+    margin-bottom: 32px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.project-section-content {
+    padding-bottom: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125em;
+    line-height: normal;
+    font-weight: 400;
+    color: #1B262C;
+}
+
 
 
 /**
@@ -14,18 +68,18 @@ a {
     padding: 12px 22px;
 }
 .btn-primary.outline {
-    border: 2px solid #616E86;
-    color: #616E86;
+    border: 2px solid ##C19898;
+    color: ##C19898;
 }
 .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
     color: #fff;
     border-color: #fff;
-    background-color: #616E86;
+    background-color: ##C19898;
 }
 .btn-primary.outline:active, .btn-primary.outline.active {
     color: #fff;
     border-color: #fff;
-    background-color: #616E86;
+    background-color: ##C19898;
     box-shadow: none;
 }
 
@@ -63,14 +117,6 @@ a {
 
                                /**My Work Pages**/
 
-.section-casestudy {
-  margin-top: 32px;
-  margin-bottom: 56px;
-}
-
-.content {
-  margin: 20px 0;
-}
 
 .deliverable {
     padding: 5px 5px;
@@ -96,45 +142,6 @@ a {
 footer {
 	padding: 20px 0;
 
-}
-
-
-/**PROJECT 2 - PPR**/
-
-
-.work-project2 {
-    height: 250px;
-    background: #F1F3F4;
-    /*url(../img/thumbnailsavvo.png) no-repeat center center;*/
-    background-size: cover;
-}
-/**PROJECT 2 - CURIOUS TECHNOLOGIES**/
-
-.casestudy-curiousheader {
-    height: 350px;
-    background: #F1F3F4;
-    /*background: url(../img/thumbnailcurious.jpg) no-repeat center center;*/
-    background-size: cover;
-}
-
-/**PROJECT 3 - flint*/
-
-.casestudy-flintheader {
-    height: 350px;
-    background: #F1F3F4;
-/*    height: 500px;
-    background: url(../img/thumbnailflint.png) no-repeat center center;*/
-    background-size: cover;
-}
-
-/**PROJECT 4 - ORGANIC FOOD**/
-
-.casestudy-organicheader {
-    height: 350px;
-    background: #F1F3F4;
-    /*height: 500px;
-    background: url(../img/thumbnailorganic.png) no-repeat center center;*/
-    background-size: cover;
 }
 
 

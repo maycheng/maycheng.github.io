@@ -8,10 +8,10 @@ html {
 }
 
 body {
-    font-family: "Open Sans", "Lato","Helvetica Neue",Helvetica, Arial,sans-serif;
-    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     font-weight: 400;
-    color: #212529;
+    color: #000;
     }
 
 h1,
@@ -19,31 +19,14 @@ h2,
 h3,
 h4,
 h5,
+h6,
   {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial,sans-serif;
-    font-weight: 700;
-}
-
-
-h4 {
-  font-size: 16px;
-  font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 a {
-    color: #DC4D3C;
-}
-
-ul {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5em;
-}
-
-.norm {
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.75em;
+    color: #C19898;
 }
 
 
@@ -113,11 +96,6 @@ ul {
     background-color: #616E86;
 }
 
-
-.lead {
-    font-size: 18px;
-    font-weight: 700;
-}
 
 .intro-header {
     padding-top: 50px; 
@@ -198,40 +176,7 @@ ul {
 
 }                                        
 
-.project-title{
-    margin-top: 40px;
-    margin-bottom: 16px;
-    font-family: 'Lato', sans-serif;
-    font-size: 2.5em;
-    font-weight: 400;
-    color: #1B262C;
-}
-
-.project-subtitle{
-    margin-bottom: 40px;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.25em;
-    font-weight: 300;
-    color: #1B262C;
-}
-
-.project-section-title {
-    margin-bottom: 8px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.75em;
-    font-weight: 400;
-    color: #1B262C;
-}
-
-.project-section-content {
-    padding-bottom: 24px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    color: #1B262C;
-}
-
-.projects > div {
+.projects div {
    margin-top: 5px;
    margin-bottom: 5px;
 }
@@ -248,7 +193,7 @@ ul {
   position: relative;
   text-align: center;
   cursor: pointer;
-  background: #1f0a02; 
+  background: #1f0a02;
 }
 
 .hovereffect .overlay {
@@ -275,7 +220,7 @@ ul {
   backface-visibility: hidden;
 }
 
-.hovereffect:hover img {
+.hovereffect: hover img {
   opacity: 0.2;
   filter: alpha(opacity=40);
   -webkit-transform: translate3d(0,0,0);
@@ -390,10 +335,11 @@ ul {
 }
 
 footer{
+  margin-top: 100px;
   background: #616E86;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.875em;
 }
 
 p.copyright {
