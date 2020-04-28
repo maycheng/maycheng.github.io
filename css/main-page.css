@@ -146,18 +146,20 @@ a {
 /*Main Page*/
 
 .main-section {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    border-bottom: 1px solid #e7e7e7;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }                
 
 .main-section-title{
-    padding-top: 24px;
-    padding-bottom: 32px;
+    padding-bottom: 100px;
     font-family: 'Lato', sans-serif;
-    font-size: 1.75em;
+    font-size: 2.5em;
     font-weight: 400;
-}                                       
+}  
+
+.main-section-divider {
+  border-bottom: 1px solid #e7e7e7;
+}                                     
 
 .hovereffect {
   width: 100%;
