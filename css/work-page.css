@@ -2,17 +2,17 @@
 
 /**Hero**/
 
-.work-project1 {
-    height: 200px;
-    background: #CCAFAF;
-    /*url(../img/thumbnailsavvo.png) no-repeat center center;*/
+.work-project-vbq {
+    height: 500px;
+    background:
+    url(../img/thumbnailvbq.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.work-project2 {
-    height: 200px;
-    background: #CCAFAF;
-    /*background: url(../img/thumbnailcurious.jpg) no-repeat center center;*/
+.work-project-ppr {
+    height: 500px;
+    background:
+    url(../img/thumbnailppr.jpg) no-repeat center center;
     background-size: cover;
 }
 

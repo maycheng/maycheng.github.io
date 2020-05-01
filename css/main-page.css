@@ -104,7 +104,7 @@ a {
 
 .intro-message {
     position: relative;
-    padding-top: 32%;
+    padding-top: 25%;
     padding-bottom: 15%;
 }
 
@@ -174,7 +174,31 @@ a {
 
 .main-section-divider {
   border-bottom: 1px solid #e7e7e7;
-}    
+} 
+
+.main-thumbnail-card {
+  border: 1px;
+  border-color: #e6e6e6;
+}
+
+.thumbnail-caption-title {
+  padding-top: 10%;
+  padding-bottom: 1%;
+  padding-left: 3%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.thumbnail-caption-subtitle {
+  padding-left: 3%;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 
 .main-profile-photo {
   padding-top: 32px;
