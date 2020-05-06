@@ -153,12 +153,12 @@ a {
 
 
 .main-section {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 100px;
 }                
 
 .main-section-title{
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-size: 2.5em;
@@ -170,6 +170,7 @@ a {
     font-size: 1.25em;
     line-height: 1.875;
     font-weight: 400;
+    padding-bottom: 15px;
 }
 
 .main-section-divider {
@@ -182,21 +183,23 @@ a {
 }
 
 .thumbnail-caption-title {
-  padding-top: 10%;
-  padding-bottom: 1%;
-  padding-left: 3%;
-  font-family: 'Raleway', sans-serif;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-family: 'Lato', sans-serif;
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 300;
   text-decoration: none;
+  color: #fff;
 }
 
 .thumbnail-caption-subtitle {
-  padding-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
   font-family: 'Raleway', sans-serif;
   font-size: 1.25em;
   font-weight: 400;
   text-decoration: none;
+  color: #fff;
 }
 
 
@@ -207,7 +210,7 @@ a {
   vertical-align: middle;
 }                                 
 
-/*.hovereffect {
+.hovereffect {
   width: 100%;
   height: 100%;
   float: left;
@@ -215,7 +218,7 @@ a {
   position: relative;
   text-align: center;
   cursor: pointer;
-  background: #1f0a02;
+  background: #000;
 }
 
 .hovereffect .overlay {
@@ -233,7 +236,7 @@ a {
   position: relative;
   max-width: none;
   width: calc(100% + 20px);
-  opacity: .8;
+  opacity: 85%;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(-10px,0,0);
@@ -249,19 +252,18 @@ a {
   transform: translate3d(0,0,0);
 }
 
-.hovereffect h2 {
-  text-transform: uppercase;
-  color: #fff;
+.hovereffect h3 {
+  color: #000;
   text-align: center;
   position: relative;
-  font-size: 20px;
   overflow: hidden;
   padding: 0.5em 0;
-  background-color: transparent;
-  margin-top: 85px;
+  background-color: #fff;
+  margin-top: 25%;
+  text-transform: uppercase;
 }
 
-.hovereffect h2:after {
+.hovereffect h3:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -275,19 +277,20 @@ a {
   transform: translate3d(-100%,0,0);
 }
 
-.hovereffect:hover h2:after {
+.hovereffect:hover h3:after {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
 
 .hovereffect a, .hovereffect p {
-  color: #fff;
+  color: #000;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(100%,0,0);
   transform: translate3d(100%,0,0);
+  text-transform: uppercase;
 }
 
 .hovereffect:hover a, .hovereffect:hover p {
@@ -295,7 +298,8 @@ a {
   filter: alpha(opacity=100);
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
-}*/
+  background: #fff;
+}
 
 
 /**
