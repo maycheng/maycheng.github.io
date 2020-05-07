@@ -97,14 +97,14 @@ a {
     height: 100vh;
     text-align: center;
     color: #f8f8f8;
-    background: #CCAFAF;
-    /*background: url(../img/hero.png) no-repeat center center;*/
+    /*background: #CCAFAF;*/
+    background: url(../img/hero.png) no-repeat center center;
     background-size: cover;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 25%;
+    padding-top: 35%;
     padding-bottom: 15%;
 }
 
@@ -153,12 +153,12 @@ a {
 
 
 .main-section {
-    margin-top: 80px;
-    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }                
 
 .main-section-title{
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-size: 2.5em;
@@ -174,32 +174,52 @@ a {
 }
 
 .main-section-divider {
-  border-bottom: 1px solid #e7e7e7;
-} 
+  border-bottom: 1px solid #f7f7f7;
+}  
 
-.main-thumbnail-card {
-  border: 1px;
-  border-color: #e6e6e6;
+.gallery {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: #f7f7f7;
 }
 
-.thumbnail-caption-title {
-  padding-top: 3%;
-  padding-bottom: 3%;
+.workthumbnail {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #fff;
+  box-shadow: 0 1px 1px 0 #ccc;
+  display: inline-block;
+  border-radius: none;
+}
+
+.phototitle {
+  padding-top: 5%;
+  padding-right: 20px;
+  padding-left: 10px;
   font-family: 'Lato', sans-serif;
-  font-size: 1.5em;
-  font-weight: 300;
-  text-decoration: none;
-  color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #000;
+  text-transform: uppercase;
+  display: block;
 }
 
-.thumbnail-caption-subtitle {
+.phototile > a: link {
+    text-decoration: none;
+}
+
+.photosubtitle {
   padding-top: 1%;
-  padding-bottom: 1%;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.25em;
-  font-weight: 400;
-  text-decoration: none;
-  color: #fff;
+  padding-right: 30px;
+  padding-left: 10px;
+  padding-bottom: 7%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #000;
 }
 
 
@@ -350,7 +370,7 @@ a {
 }
 
 footer{
-  margin-top: 100px;
+  margin-top: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
   background: #616E86;
