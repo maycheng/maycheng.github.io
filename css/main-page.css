@@ -170,7 +170,7 @@ a {
     font-size: 1.25em;
     line-height: 1.875;
     font-weight: 400;
-    padding-bottom: 15px;
+    padding-bottom: 1%;
 }
 
 .main-section-divider {
@@ -192,6 +192,8 @@ a {
   box-shadow: 0 1px 1px 0 #ccc;
   display: inline-block;
   border-radius: none;
+  height: auto;
+  margin-bottom: 5%;
 }
 
 .phototitle {
@@ -203,7 +205,7 @@ a {
   font-weight: 400;
   color: #000;
   text-transform: uppercase;
-  display: block;
+  display: inline-block;
 }
 
 .phototile > a: link {
