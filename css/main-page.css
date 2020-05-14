@@ -5,6 +5,7 @@ body,
 html {
     width: 100%;
     height: 100%;
+    background-color: #f7f7f7;
 }
 
 p {
@@ -95,32 +96,30 @@ a {
 .main-header {
     width: 100%;
     height: 100vh;
-    text-align: center;
     color: #f8f8f8;
-    /*background: #CCAFAF;*/
-    background: url(../img/hero.png) no-repeat center center;
+    background: #CCAFAF;
+    /*background: url(../img/hero.png) no-repeat center center;*/
     background-size: cover;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 35%;
-    padding-bottom: 15%;
+    height: 100vh;
+    display: inline-block;
+    padding-top: 45%;
 }
 
 .intro-message > h1 {
-    margin: 0;
-    font-size: 7em;
+    font-size: 5em;
     line-height: 1.5em;
     font-family: 'Lato', sans-serif;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
 }
 
 .intro-message > h2 {
-    margin: 0;
     line-height: 1.5em;
     letter-spacing: .01em;
-    font-size: 3em;
+    font-size: 2em;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
 }
 
@@ -159,10 +158,9 @@ a {
 
 .main-section-title{
     padding-bottom: 50px;
-    text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     font-size: 2.5em;
-    font-weight: 400;
+    text-align: center;
 }  
 
 .main-section-content {
@@ -182,7 +180,6 @@ a {
   padding-bottom: 5%;
   padding-right: 5%;
   padding-left: 5%;
-  background-color: #f7f7f7;
 }
 
 .workthumbnail {
