@@ -22,6 +22,12 @@
     background-size: cover;
 }
 
+.work-project-process {
+    height: 375px;
+    background:
+    url(../img/hero.png) no-repeat center center;
+    background-size: cover;
+}
 
 /**Page**/
 
