@@ -10,7 +10,7 @@ html {
 
 p {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.25em;
+    font-size: 16px;
     line-height: 1.5;
     font-weight: 400;
     color: #000;
@@ -88,40 +88,56 @@ a {
     height: auto;
 }
 
+
 .active {
-    background-color: #616E86;
+    background-color: #F1F3F4;
 }
 
 
 .main-header {
+    position: relative;
     width: 100%;
     height: 100vh;
-    color: #f8f8f8;
-    background: #CCAFAF;
-    /*background: url(../img/hero.png) no-repeat center center;*/
+    color: #ffffff;
+    background: #BC8F8F;
     background-size: cover;
 }
 
-.intro-message {
+
+.hero-content {
     position: relative;
-    height: 100vh;
-    display: inline-block;
-    padding-top: 45%;
+    width: 100%;
+    top: 50%;
+   /* -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;*/
+    z-index: 10;
 }
 
-.intro-message > h1 {
-    font-size: 5em;
-    line-height: 1.5em;
+
+.hero-content h1 strong {
+    font-weight: 900;
+}
+
+
+.hero-content h1 {
+    font-size: 56px;
+    line-height: 1em;
+    color: #ffffff;
     font-family: 'Lato', sans-serif;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+    font-weight: 300;
 }
 
-.intro-message > h2 {
-    line-height: 1.5em;
-    letter-spacing: .01em;
-    font-size: 2em;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+
+.hero-content p {
+    font-size: 1.5em;
+    line-height: 1em;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
 }
+
 
 .intro-divider {
     width: 400px;
@@ -157,11 +173,21 @@ a {
 }                
 
 .main-section-title{
-    padding-bottom: 50px;
+    padding-bottom: 16px;
     font-family: 'Lato', sans-serif;
-    font-size: 2.5em;
-    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1em;
 }  
+
+.main-section-underline {
+    display: block;
+    width: 75px;
+    height: 1px;
+    background: #555;
+    margin-bottom: 50px;
+}
 
 .main-section-content {
     font-family: 'Raleway', sans-serif;
@@ -369,17 +395,16 @@ a {
 }
 
 footer{
-  margin-top: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  background: #616E86;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 0.875em;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #F1F3F4;
 }
 
-.text-muted {
-  color: #fff;
+.page-footer {
+  color: #212529;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 0.75em;
 }
 
 
