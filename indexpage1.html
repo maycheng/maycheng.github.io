@@ -101,9 +101,9 @@
             <div class="row">
             <div class="col-sm-12 col-md-10 col-lg-9">
                 <h2 class="project-section-title">Background</h2>
-                <p class="project-section-content">United issues Electronic travel certificates (ETCs) to customers as a form of compensation that is redeemable for future travel with the airline. As certificates are only issued via print and email with limited and difficult to find information on how to use them, customers are often driven to call the contact center for help.</p>
+                <p class="project-section-content">United issues Electronic travel certificates (ETCs) to customers as a form of compensation that is redeemable for future travel with the airline. As certificates are only issued via print or email with limited and difficult to find information on how to use them, customers are often driven to call the contact center for help.</p>
 
-                <p>Reference: <a target="_blank" href="https://www.united.com/ual/en/us/fly/booking/flight/travel-credits.html">United travel credits</a>
+                <p>Reference: <a target="_blank" href="https://www.united.com/ual/en/us/fly/booking/flight/travel-credits.html">United travel credit</a>
                 </p>
             </div>
             </div>
@@ -111,31 +111,182 @@
             <div class="row">
             <div class="col-sm-12 col-md-10 col-lg-9">          
                 <h2 class="project-section-title">Challenge</h2>
-                <p class="project-section-content">With COVID-19’s impact to travel changes, 2019 was shaping up to be a record year for ETC issuance. There was an enterprise-wide focus on integrating travel certificates into the airline’s digital channels to help  reduce contact center requests during a time of unprecedented call volumes. Given that half of certificates issued are associated to a MileagePlus account, the initial area of focus was for United members. As the Lead Product Designer, I quickly gathered research, tested concepts and delivered designs to integrate Electronic travel certificates into member accounts on the United website and mobile app.</p> 
+                <p class="project-section-content">With COVID-19’s impact to travel changes, 2019 was shaping up to be a record year for ETC issuance. There was an enterprise-wide focus on integrating travel certificates into the airline’s digital channels in an effort to reduce contact center calls during a time of unprecedented call volumes. As the Lead Product Designer, I quickly gathered research, tested concepts and delivered designs to integrate Electronic travel certificates into the United website and mobile app.</p> 
             </div>
             </div>
 
 
-            <div class="row">
+            <!-- <div class="row">
             <div class="col-sm-12 col-md-10 col-lg-9">
                 <h2 class="project-section-title">Existing state</h2>
                 <p>As certificates are issued directly to travelers via print or email, and not integrated into United’s digital channels, a top driver of customer calls were "where to find" and "how to use certificates.”</p>
             </div>
+            </div> -->
+
+
+            <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-9">
+                <h2 class="project-section-title">Research</h2>
+            </div>
             </div>
 
 
             <div class="row">
             <div class="col-sm-12 col-md-10 col-lg-9">
-                <h2 class="project-section-title">Approach</h2>
-                <p class="project-section-content">More details coming soon...</p>
+                <h4>Map current flow</h4>
+                <p class="project-section-content">Using an existing journey map, I audited the current flow from when a certificate is issued to when it is redeemed, gathering background on what is surfaced to a customer and when, to help me prioritize what to include in my designs.</p>
             </div>
             </div>
-        
+
+
+            <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <img class="img-responsive center-block deliverable" src="img/ETC/research1.png">      
+            </div>
+            </div>
+
+
+            <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-9">
+                <h4>Gather customer feedback</h4>
+                <p class="project-section-content">For a better understanding of the problem to solve, I looked to the contact center for any customer feedback to share, as well as noticeable themes from certificate-related calls, as agents were the main touch point fielding questions. To get a sense of user expectations, I was able to leverage qualitative feedback from related a user testing baseline that I had recently conducted for a similar topic.</p>
+                <h4>Key insights:</h4>
+                    <ul class="project-section-content">
+                        <li>United is issuing 44% more travel certificates and call volumes continue to rise</li>
+                        <li>Customers have a strong association between miles and certificates, both are seen as a form of "United or loyalty currency” that does not belong to the individual</li>
+                        <li>Customers have a general suspicion of airline credits as the way that they’re issued can be easily lost (via email) and the way they can be used is difficult (due to restrictions)</li>
+                        <li>Overall, the lack of online visibility contributes to the main customer pain points being:
+                            <ul>
+                                <li>How to use an ETC - Customers are confused when trying to redeem their ETCs, and do not know when or where they can apply their ETC</li>
+                                <li>How to retrieve ETC - Customers often never receive the email with their ETC</li>
+                            </ul>
+                        </li>
+                    </ul>
+                
+            </div>
+            </div>
+
+
+            <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-9">
+                <h2 class="project-section-title">Design</h2>
+            </div>
+            </div>
+
+
+            <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-9">
+                <h4>Refine product requirements</h4>
+                <p class="project-section-content">With a better sense of how to drive value in improving the ETC experience for customers, I navigated through a series of conversations with leadership, product, and technology teams to refine requirements for the digital experience in order to align delivery expectations.</p>
+                <h4>Define design scope</h4>
+                <p class="project-section-content">While the eventual goal would be to display multiple forms of travel credit to a user, given that flight credit from a changed/cancelled flight reservation had complex fare rules and technical services limitations, the initial design was to focus solely on electronic travel certificates, with an ability to scale for other forms of compensation in the future. Additionally, as half of the certificates issued were to a MileagePlus member, the initial design scope focused on integrating ETCs into United accounts first.</p>
+            </div>
+            </div>
+
+
+            <div class="row">
+            <div class="col-md-12">
+
+                <div class="col-md-6">
+                <br>
+                <p class="project-section-content">With a defined scope and research insights, I focused my ideation on these design principles:
+                    <ul class="project-section-content">
+                        <li><strong>Findability of information</strong> - displaying the travel certificate in an intuitive location to allow users to find what they’re looking for quickly</li>
+                        <li><strong>Contextual content</strong> - presenting the right amount and level of detail at the most contextual location to help users understand their options and take next steps</li>
+                    </ul>
+                </p>
+                <p class="project-section-content">I began with sketching ideas for the page layout and certificate details, leveraging existing information architecture and hierarchy.</p>
+                </div>
+
+                <div class="col-md-4 col-md-offset-1">
+                <p class="project-section-content">
+                <img class="img-responsive center-block" src="img/ETC/sketch.jpg">  
+                </p>
+                </div>
+            </div>
+            </div>
+
 
             <div class="row">
             <div class="col-sm-12 col-md-10 col-lg-9">               
+                <p class="project-section-content">My ideation evolved into the digital space using wireframes with a more detailed visualization of how content would be organized and scale for different use cases, modifying existing design patterns as needed.</p>
+            </div>
+            </div>
+
+
+            <div class="row">
+            <div class="col-md-12">
+                <img class="col-md-6 img-responsive center-block deliverable" src="img/ETC/ideation1.png">
+                <img class="col-md-6 img-responsive center-block deliverable" src="img/ETC/ideation2.png">        
+            </div>
+            </div>
+
+
+            <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-9">
+                <h2 class="project-section-title">Validation</h2>
+            </div>
+            </div>
+    
+
+            <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-9">
+                <p class="project-section-content">Despite working within a tight timeline to deliver (literally - updates were shared on a daily basis), I partnered with a UX researcher to plan, conduct, and synthesize a quick round of concept validation testing within two days (a personal record!).</p>
+
+                <h4>Research goal + methodology</h4>
+                <p class="project-section-content">I opted for usability testing in order to determine which, if either, design concept met user needs. Within a day, I built two click-through InVision prototypes that were launched online for remote, unmoderated testing that same evening. By the next morning, we had feedback videos from 14 participants - mainly travelers who had recently received airline credit within the past 6 months.</p>
+
+                
+                <p>Prototype I - Travel credits summarized at top next to loyalty balances</p>
+                <p>Reference: <a target="_blank" href="https://unitedeux.invisionapp.com/share/BHWLO2C9V6Z#/screens">Prototype I</a>
+                </p>
+
+                <ul class="project-section-content"><li>Applying research insight on how users associated travel certificates with loyalty currency, I added travel certificates as a column to the existing summary bar to maintain the same hierarchy as other loyalty balances.</li></ul>
+        
+
+                <p>Prototype II - Travel credits appear in a dedicated section below summary of loyalty balances</p>
+                <p>Reference: <a target="_blank" href="https://unitedeux.invisionapp.com/share/J9WLO9NQRW2#/screens">Prototype II</a>
+                </p>
+
+                <ul class="project-section-content"><li>Considering an environment where there are more flight cancellations than bookings, I created a dedicated section to surface existing credit and provide actionable next steps</li></ul>
+            
+
+                <h4>Key findings</h4>
+                <p class="project-section-content">Overwhelmingly, participants preferred Prototype II for its dedicated section because they could see all of their credits exposed, the different amounts and expirations dates, as well as have the ability to expand for more details.</p>
+                <p><i>“I liked seeing it all out there right away. It was super clear what credits I had”</i> - Research participant
+                </p>
+                    <ul class="project-section-content">
+                        <li>Users also really liked having the “book with certificate” call-to-action option as a visible and quick next step when they are ready to book </li>
+                        <li>Several mentioned wanting more information in the details section in general, including information about usage and restrictions</li>
+                    </ul>
+            </div>
+            </div>
+
+
+            <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-9">
+                <h2 class="project-section-title">Refinement</h2>
+            </div>
+            </div>
+
+
+            <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-9">               
+                <p class="project-section-content">Testing feedback helped to validate design decisions I originally made such as surfacing the credits vs. just summarizing them, organizing the layout by expiration date, and including call-to-action links for next steps. It also helped me identify that having more detailed information was an area of improvement in my design iteration. Having this qualitative feedback also enabled the product team to accelerate decision-making and gain approvals from leadership and project stakeholders.</p>
+            </div>
+            </div>
+
+
+            <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-9">
                 <h2 class="project-section-title">Outcome</h2>
-                <p class="project-section-content">An updated loyalty account experience went live in May 2020, allowing travel credit visibility for over 5K members on the first day it launched.</p>
+            </div>
+            </div>
+
+
+            <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-9">               
+                <p class="project-section-content">The dedicated travel credit section appears in a United account for members who have a valid Electronic travel certificate. This direction allows roofer improvement as traveler needs change and has the potential to expand and include other forms of payment and compensation, if needed. The ability to view and use an ETC from a member account on United’s digital channels launched in May 2020- helping over 5K members access their certificates within the first day.</p>
             </div>
             </div>
 
@@ -144,6 +295,21 @@
             <div class="col-md-12">
                 <img class="col-md-6 img-responsive center-block deliverable" src="img/ETC/Outcome1.png">
                 <img class="col-md-6 img-responsive center-block deliverable" src="img/ETC/Outcome2.png">        
+            </div>
+            </div>
+
+            <div class="row">
+            <div class="col-md-12">
+                <img class="col-md-6 img-responsive center-block deliverable" src="img/ETC/outcome3.png">
+                <img class="col-md-6 img-responsive center-block deliverable" src="img/ETC/outcome4.png">        
+            </div>
+            </div>
+
+
+            <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-9">               
+                <h2 class="project-section-title">Next steps</h2>
+                <p class="project-section-content">As the ability to access and use certificates evolve on United’s digital channels, I continue to push for ways to generate qualitative feedback loops that are used to prioritize future enhancements that can map toward a more holistic compensation strategy for the airline’s customers.</p>
             </div>
             </div>
              
