@@ -251,14 +251,24 @@ a {
   background-color: #fff;
   box-shadow: 0 1px 1px 0 #ccc;
   display: inline-block;
-  border-radius: none;
-  height: auto;
-  margin-bottom: 5%;
+  height: 300px;
+  margin-bottom: 1%;
 }
 
-.phototitle {
+.workthumbnail img {
+  height: 100%;
+  width: 100%;
+}
+
+.thumbnaildescription {
+  background-color: #fff;
+  height: 150px;
+  min-width: 400px;
+}
+
+.thumbnaildescription h3 {
   padding-top: 5%;
-  padding-right: 20px;
+  padding-right: 10px;
   padding-left: 10px;
   font-family: 'Lato', sans-serif;
   font-size: 1.2em;
@@ -267,11 +277,11 @@ a {
   display: inline-block;
 }
 
-.phototile > a: link {
+.thumbnaildescription > a: link {
     text-decoration: none;
 }
 
-.photosubtitle {
+.workthumbnail p {
   padding-top: 1%;
   padding-right: 30px;
   padding-left: 10px;
