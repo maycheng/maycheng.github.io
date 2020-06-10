@@ -4,14 +4,14 @@
 .work-project-etc {
     height: 375px;
     background:
-    url(../img/thumbnailetc.jpg) no-repeat center center;
+    url(../img/thumbnailetc.jpg) no-repeat;
     background-size: cover;
 }
 
 .work-project-vbq {
     height: 375px;
     background:
-    url(../img/ThumbnailVBQ.jpg) no-repeat center center;
+    url(../img/ThumbnailVBQ.jpg) no-repeat;
     background-size: cover;
 }
 
