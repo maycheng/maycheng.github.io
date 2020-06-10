@@ -22,6 +22,27 @@
     background-size: cover;
 }
 
+.work-project-pst {
+    height: 375px;
+    background:
+    url(../img/thumbnailpst.jpg) no-repeat;
+    background-size: cover;
+}
+
+.work-project-flex {
+    height: 375px;
+    background:
+    url(../img/thumbnailflex.jpg) no-repeat;
+    background-size: cover;
+}
+
+.work-project-ao {
+    height: 375px;
+    background:
+    url(../img/thumbnailao.jpg) no-repeat center;
+    background-size: cover;
+}
+
 .work-project-process {
     height: 375px;
     background:
