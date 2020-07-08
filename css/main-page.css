@@ -238,6 +238,29 @@ a {
 }
 
 
+/*TEST OVERLAY*/
+
+.portfolio-item {
+  margin: 0 0 30px;
+  right: 0;
+  display: block;
+  position: relative;
+}
+
+.portfolio-link {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background: #000;
+  transition: all ease .5s;
+}
+
 .gallery {
   padding-top: 5%;
   padding-bottom: 5%;
