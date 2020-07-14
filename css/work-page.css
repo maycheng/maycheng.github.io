@@ -1,5 +1,12 @@
 /**Work Page**/
 
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
 /*Navigation*/
 
 
@@ -10,6 +17,7 @@
     background:
     url(../img/thumbnailetc.jpg) no-repeat;
     background-size: cover;
+    margin-bottom: 56px;
 }
 
 .work-project-vbq {
@@ -17,6 +25,7 @@
     background:
     url(../img/ThumbnailVBQ.jpg) no-repeat;
     background-size: cover;
+    margin-bottom: 56px;
 }
 
 .work-project-ppr {
@@ -24,6 +33,7 @@
     background:
     url(../img/ThumbnailPPR.jpg) no-repeat center center;
     background-size: cover;
+    margin-bottom: 56px;
 }
 
 .work-project-pst {
@@ -31,6 +41,7 @@
     background:
     url(../img/thumbnailpst.jpg) no-repeat;
     background-size: cover;
+    margin-bottom: 56px;
 }
 
 .work-project-flex {
@@ -38,6 +49,7 @@
     background:
     url(../img/thumbnailflex.jpg) no-repeat;
     background-size: cover;
+    margin-bottom: 56px;
 }
 
 .work-project-ao {
@@ -45,6 +57,7 @@
     background:
     url(../img/thumbnailao.jpg) no-repeat center;
     background-size: cover;
+    margin-bottom: 56px;
 }
 
 .work-project-process {
@@ -57,32 +70,33 @@
 /**Page**/
 
 .project-title {
-    margin-top: 56px;
-    margin-bottom: 16px;
+    margin: 56px 0 56px 0;
     font-family: 'Lato', sans-serif;
-    font-size: 2.75em;
-    font-weight: 300;
+    font-size: 32px;
+    font-weight: 400;
 }
 
-.project-subtitle {
+/*.project-subtitle {
     margin-bottom: 56px;
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
     font-weight: 400;
     text-transform: uppercase;
-}
+}*/
 
 .project-description {
-    padding-top: 1%;
     font-family: 'Lato', sans-serif;
-    font-size: 1em;
-    font-weight: 300;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .project-section-title {
-    margin-top: 56px;
-    margin-bottom: 32px;
+    margin: 24px 0 24px 0;
     font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .project-section-content {
@@ -94,6 +108,24 @@
     color: #1B262C;
 }
 
+.project-section-process {
+    position: relative;
+    padding: 32px 0 32px 0;
+    margin: 40px 0 40px 0;
+    color: #212529;
+    background: #F1F3F4;
+}
+
+./*section-process {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: 10;
+} */
 
 
 /**
